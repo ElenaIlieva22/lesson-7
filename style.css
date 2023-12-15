@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #ff0000
+}
+
+.link:focus {
+    color: #00ff00;
+}
+
+.link:focus:hover {
+    color: #ffff00;
+}
+
+.title-1 {
+    font-family: "Verdana", sans-serif;
+}
+
+.paragraph-1 {
+    font-style: italic;
+}
+
+.paragraph-2 {
+    font-weight: 700;
+}
+
+.paragraph-3 {
+    font-style: italic;
+    font-size: 20px;
+    font-family: "Verdana", sans-serif;
+}
+
+.link-1 {
+    color: #00ff00;
+}
+
+.link-2:invisited {
+    color:#ff0000;
+}
+
+.link-2:visited {
+    color: aqua;
+}
+
+.link-3 {
+    text-decoration: none;
+}
+
+.link-3:hover,
+.link-3:visited {
+    text-decoration: underline;
+}
+
+.link-4 {
+    background-color: #00ffff;
+    text-decoration: none;
+    transition: 0.25s all ease-in-out;
+}
+
+.link-4:hover {
+    background-color: #ffff00;
+}
+
+.unordered-list {
+   list-style-position: inside;
+   /*list-style-image: url(test.png);*/
+}
+
+.table {
+    border: 1px solid #000;
+    width: 100%;
+}
+
+.table th,
+table td {
+    border: 1px solid #ff0000;
+    padding: 5px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.table-1 {
+    border:2px solid green;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.table-1 td {
+    text-align: right;
+    background-color: #ffff00;
+    padding: 15px;
+}
+
+.custom-element {
+    margin: 100px 0;
+    padding: 50px 0;
+}
+
+.span-1 {
+    background-color: #00ff00;
+    display: none;
+    padding: 10px;
+    margin: 50px;
+}
+
+.span-2 {
+    background-color: #ff0000;
+    display: inline-block;
+    padding: 10px;
+    margin: 50px;
+}
